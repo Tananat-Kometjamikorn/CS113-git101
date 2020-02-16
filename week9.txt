@@ -1,0 +1,42 @@
+git --version                               // Check git version
+
+git init                                    // Initialize git repository
+
+git status                                  // Check status of file in branch
+
+git add name.ext                            // Track file name.ext
+
+git config user.name "Name"                 // Config user name
+git config user.email "mail@ku.th"          // Config user email
+
+git commit -m "message"                     // Commit file and comment message
+
+git log --all --decorate --oneline --graph  // View all checkpoint
+
+git remote add <remote name> <git url>      // Connect local repository to github
+
+git remote remove <remote name>             // If you type wrong name : this can remove then add remote again
+
+git push -u origin branch-name              // Send file and history to github
+
+git checkout <commit-id>                    // Get all file in commit-id back
+git checkout <commit-id>  <filename>        // Get filename in commit-id back
+
+git clone <git-url>                         // Download repository from git-url to local
+
+git branch                                  // Check all branch in your repository (print list)
+
+git branch branch-name                      // Create new branch name: branch-name
+
+git checkout branch-name                    // Switch present working branch to branch-name 
+
+git merge branch-name                       // Merge file in branch-name to present working branch
+
+git pull origin branch-name                 // Get the changes from branch-name
+
+lecture 1 : Basic Git 
+// https://drive.google.com/open?id=14JWtACqa6JF087bPx63-IoqfoIsTGuXz
+
+lecture 2 : Git branch ,pull and merge
+// https://drive.google.com/open?id=15zUjQztkOkDJIbJxga7wTUenBpu38gcF
+
