@@ -34,9 +34,3 @@ git merge branch-name                       // Merge file in branch-name to pres
 
 git pull origin branch-name                 // Get the changes from branch-name
 
-lecture 1 : Basic Git 
-// https://drive.google.com/open?id=14JWtACqa6JF087bPx63-IoqfoIsTGuXz
-
-lecture 2 : Git branch ,pull and merge
-// https://drive.google.com/open?id=15zUjQztkOkDJIbJxga7wTUenBpu38gcF
-
